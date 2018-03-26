@@ -1,0 +1,12 @@
+.footer{
+	background-color: blue;
+	width:100%;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    border-top: 25px solid #517CD3;
+	}
+.name{
+	text-align: right;
+	padding: 15px;
+}
