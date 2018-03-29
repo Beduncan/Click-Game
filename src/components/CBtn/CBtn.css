@@ -1,0 +1,17 @@
+button{
+	position: relative;
+	background-color: blue;
+	padding: 20px;
+	margin:5px;
+	max-width: 20%;
+	max-height: 20%;
+	margin-left: 10%;
+
+}
+#pic{
+	background-size: cover;
+/*	min-width: 45%;
+	min-height: 45%;*/
+	max-width: 50%;
+	max-height: 50%;
+}

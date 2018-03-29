@@ -1,0 +1,63 @@
+[
+	{
+		"id": 1,
+		"img":"https://cdn.pixabay.com/photo/2018/03/26/09/29/car-3262045__340.jpg",
+		"clicked": 1, 
+		"alt":"car1"
+	},{
+		"id": 2,
+		"img":"https://cdn.pixabay.com/photo/2018/03/25/23/15/car-3261147__340.png",
+		"clicked": false, 
+		"alt":"car2"
+	},	{
+		"id": 3,
+		"img":"https://cdn.pixabay.com/photo/2018/03/24/09/23/car-3256128__340.jpg",
+		"clicked": false, 
+		"alt":"car3"
+	},	{
+		"id": 4,
+		"img":"https://cdn.pixabay.com/photo/2018/03/23/09/15/chevrolet-3253172__340.png",
+		"clicked": false, 
+		"alt":"chevy"
+	},	{
+		"id": 5,
+		"img":"https://cdn.pixabay.com/photo/2018/03/25/10/37/t-model-3259027__340.png",
+		"clicked": false, 
+		"alt":"model-t"
+	},	{
+		"id": 6,
+		"img":"https://cdn.pixabay.com/photo/2018/03/26/09/28/car-3262040__340.jpg",
+		"clicked": false, 
+		"alt":"car4"
+	},	{
+		"id": 7,
+		"img":"https://cdn.pixabay.com/photo/2018/03/26/08/32/cuba-3261931__340.jpg",
+		"clicked": false, 
+		"alt":"cuba"
+	},	{
+		"id": 8,
+		"img":"https://cdn.pixabay.com/photo/2018/03/21/11/31/ford-escort-mk1-3246410__340.jpg",
+		"clicked": false, 
+		"alt":"ford"
+	},	{
+		"id": 9,
+		"img": "https://cdn.pixabay.com/photo/2018/03/20/16/09/traffic-3243708__340.jpg",
+		"clicked": false,
+		"alt":"traffic"
+	},	{
+		"id": 10,
+		"img":"https://cdn.pixabay.com/photo/2017/03/10/10/13/vehicle-2132360__340.jpg",
+		"clicked": false,
+		"alt":"car5"
+	},	{
+		"id": 11,
+		"img":"https://cdn.pixabay.com/photo/2018/03/24/13/32/car-3256663__340.jpg",
+		"clicked": false, 
+		"alt":"car11"
+	},	{
+		"id": 12,
+		"img":"https://cdn.pixabay.com/photo/2018/03/20/14/11/mitsubishi-evo-8-3243406__340.jpg",
+		"clicked": false, 
+		"alt":"evo"
+	}	
+]

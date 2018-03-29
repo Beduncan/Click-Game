@@ -1,15 +1,19 @@
 .header {
+	position: fixed;
+	top:0;
+	left:0;
     background-color: #222;
     height: 50px;
     padding: 20px;
+    width:100%;
     color:#517CD3;
 }
 .title{
-	text-align: left;
+	float: left;
 }
 .score{
 	position: relative;
-	bottom: 50px;
-	text-align: right;
+	right: 50px;
+	float: right;	
 	padding: 5px;
 }

@@ -1,9 +1,7 @@
 .footer{
 	background-color: blue;
 	width:100%;
-	position: fixed;
-    left: 0;
-    bottom: 0;
+	position: relative;
     border-top: 25px solid #517CD3;
 	}
 .name{
