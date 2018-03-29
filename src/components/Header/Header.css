@@ -2,18 +2,22 @@
 	position: fixed;
 	top:0;
 	left:0;
-    background-color: #222;
-    height: 50px;
-    padding: 20px;
+    max-height: 100px;
     width:100%;
+    background-color: #222;
     color:#517CD3;
 }
 .title{
-	float: left;
+	padding-top:10px;
+}
+.message{
+	text-align: center;
+	position: relative;
+	bottom:10px;
 }
 .score{
 	position: relative;
-	right: 50px;
-	float: right;	
-	padding: 5px;
+	bottom:70px;
+	right:20px;
+	text-align: right;
 }

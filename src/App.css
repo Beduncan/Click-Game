@@ -1,6 +1,6 @@
-.container{
-  width:60%;
-  height: auto;
-  background-color: green;
-  margin-left:20%;
+.container {
+	margin:auto;
+    width: 80%;
+    height: auto;
+    background-color: green;
 }

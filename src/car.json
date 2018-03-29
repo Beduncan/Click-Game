@@ -2,7 +2,7 @@
 	{
 		"id": 1,
 		"img":"https://cdn.pixabay.com/photo/2018/03/26/09/29/car-3262045__340.jpg",
-		"clicked": 1, 
+		"clicked": false, 
 		"alt":"car1"
 	},{
 		"id": 2,
