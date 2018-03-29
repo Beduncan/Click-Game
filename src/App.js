@@ -20,39 +20,53 @@ class App extends Component {
   handleClick = id => {
     if(this.state.clicked.indexOf(id) === -1){
       this.AddOne();
+      this.shuffle();
       this.setState({
         clicked: this.state.clicked.concat(id)
       });
-      console.log(this.state.clicked);
     }else{
-      this.setState({
-        message:"you lose"
-      });
       // resets game
       this.Loser();
     };
   };
-   //if they right add one to their score!
+  shuffle = () =>{
+        var j, x, i;
+    for (i = Cars.length - 1; i > 0; i--) {
+        j = Math.floor(Math.random() * (i + 1));
+        x = Cars[i];
+        Cars[i] = Cars[j];
+        Cars[j] = x;
+    }
+  }
+
+  //if they right add one to their score!
   AddOne = () => {
     const NewScore = this.state.Score + 1;
     this.setState({
       Score: NewScore,
       message:"Your Right"
     });
-    if (NewScore === 12) {
-      this.setState({message: "You Win!"});
-      //resets game
-      this.Loser
-      }//else if new score > topscore setState of topScore to newScore
+     if(NewScore >= this.state.topScore){
+        this.setState({
+          topScore: NewScore
+        });
+      };
+      if (NewScore === 12) {
+        this.setState({
+          message: "You Win!",
+          clicked:[],
+          Score:0
+        });
+      };
       // call a shuffle button 
-   };
+   };  
    // run this when user loses it resets the game expect for the topScore
    Loser = () =>{
      this.setState({
-      message:"your wrong... Good Game",
-      clciked:[],
+      message:"You Lose...Good Game",
+      clicked:[],
       Score:0,
-     })
+     });
    };
    
 
@@ -63,6 +77,7 @@ class App extends Component {
     <Header
     message = {this.state.message}
     Score = {this.state.Score}
+    topScore ={this.state.topScore}
     />
     <Jumbotron />
     <div className="container" >
