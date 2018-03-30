@@ -1,15 +1,14 @@
 import React, { Component } from "react";
 import './App.css';
+// importing components and list of cars 
 import Footer from './components/Footer';
 import Header from './components/Header';
 import CBtn from "./components/CBtn";
 import Jumbotron from './components/Jumbotron';
 import Cars from './car.json';
 
-
-
-
 class App extends Component { 
+  // seting state
   state = {
     Cars,
     Score:0,
@@ -17,6 +16,7 @@ class App extends Component {
     message:"START",
     clicked:[],
   };
+  // on click function 
   handleClick = id => {
     if(this.state.clicked.indexOf(id) === -1){
       this.AddOne();
@@ -28,7 +28,7 @@ class App extends Component {
       // resets game
       this.Loser();
     };
-  };
+  //shuffles the array of cars, mixes up buttons 
   shuffle = () =>{
         var j, x, i;
     for (i = Cars.length - 1; i > 0; i--) {
@@ -51,6 +51,7 @@ class App extends Component {
           topScore: NewScore
         });
       };
+      // if they hit 12 right they win
       if (NewScore === 12) {
         this.setState({
           message: "You Win!",
