@@ -28,6 +28,7 @@ class App extends Component {
       // resets game
       this.Loser();
     };
+  };  
   //shuffles the array of cars, mixes up buttons 
   shuffle = () =>{
         var j, x, i;
