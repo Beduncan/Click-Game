@@ -1,6 +1,6 @@
 # Click Cars
 
-This is a memeory based that has 12 buttons with different cars on each one. The piont of the game is to click as many of the cars without clicking the same one twice. if you get all 12 you win if you click the same one twice you lose. Your Topscore will be watched so good luck.
+This is a memeory based game that has 12 buttons with different cars on each one. The piont of the game is to click as many of the cars without clicking the same one twice. if you get all 12 you win if you click the same one twice you lose. Your Topscore will be watched so good luck.
 
 ## Getting Started
 
