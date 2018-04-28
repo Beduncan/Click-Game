@@ -42,5 +42,6 @@ https://aqueous-atoll-67600.herokuapp.com/
 * **Bryant Duncan** - *solo* - (https://github.com/Beduncans)
 
 ##ScreenShots 
-![Uploading Screenshot (5).png…]()
-![Uploading Screenshot (6).png…]()
+![screenshot 5](https://user-images.githubusercontent.com/31356925/39392455-fc0c4720-4a6a-11e8-8018-5023873e010b.png)
+![screenshot 6](https://user-images.githubusercontent.com/31356925/39392456-fd49f240-4a6a-11e8-8bb9-019d76df0306.png)
+![screenshot 7](https://user-images.githubusercontent.com/31356925/39392457-fe89fd08-4a6a-11e8-8c65-f5cfe15e066e.png)
