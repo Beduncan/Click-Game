@@ -1,17 +1,15 @@
-# Click Cars
-
-This is a memeory based game that has 12 buttons with different cars on each one. The piont of the game is to click as many of the cars without clicking the same one twice. If you get all 12 you win if you click the same one twice you lose. Your Topscore will be watched so good luck. This application is made with react.js. 
+# Clicky Cars
+Clicky-Cars the memory based react game! This game has 12 cards that have pictures of different cars on each one. Every-time you click a card the order of the cards changes. The job of user is to click on as many of the cards as they can without clicking on the same card twice. The game records how many cars you click on. I Created a file called car.json, this file held all the information for each card. I passed this file through as props to a component which was the html for the cards making it reusable for all 12 cards. This was my first react project and thought me a lot. 
 
 ## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+All that is needed for this app start on your system is clone this repo onto your computer. Then run yarn install in the projects folder on your terminal. Then run yarn start and the app should open for you in your browser. 
 
 ### Prerequisites
  
 ```
 * clone repo from github
 * run yarn install in the project folder
-* run yarn  
+* run yarn start  
 ```
 
 ### Installing
@@ -39,7 +37,7 @@ https://aqueous-atoll-67600.herokuapp.com/
 
 ## Authors
 
-* **Bryant Duncan** - *solo* - (https://github.com/Beduncans)
+* **Bryant Duncan** - *solo* - Linkdin()
 
 ##ScreenShots 
 ![screenshot 5](https://user-images.githubusercontent.com/31356925/39392455-fc0c4720-4a6a-11e8-8018-5023873e010b.png)
